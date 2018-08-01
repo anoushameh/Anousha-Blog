@@ -1,0 +1,101 @@
+body{
+  text-align: center;
+  font-family: "courier"
+  font-size: 20px;
+  background-color: #bdfcf0;
+  margin: 50px;
+}
+h1{
+    color: blue;
+    font-size: 28px;
+
+}
+#intro{
+  background:url("http://31.media.tumblr.com/49f218ec6dae0ec184b8b98bcc39f2f3/tumblr_njedfjnPkR1sjeyq0o1_500.gif");
+  font-family: "courier";
+  font-size: 20px;
+  outline: 5px dashed purple;
+  text-align: justify;
+  padding: 25px;
+  color: white;
+}
+#cool{
+
+  font-size: 25px;
+  font-family: "courier";
+  font-style: "italic";
+  margin: 35px;
+}
+#info{
+  background:url("https://data.whicdn.com/images/243367297/original.jpg");
+  font-size: 25px;
+  padding: 10px;
+  font-family: "courier";
+  font-style: "italic";
+  outline: 5px solid purple;
+
+}
+img{
+  padding: 12px;
+}
+#title{
+  background:url("http://latesthdpictures.com//wp-content/uploads/2017/10/Sunset-nature-images-gifs-collection.gif");
+  outline: 2px dotted #a1bdea;
+  font-size: 120px;
+  font-family: "preciousfont";
+  color: #ffb7f6;
+
+}
+li {
+    display: inline;
+}
+li a {
+
+    padding: 3px;
+    background-color: #ff549b;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+ul {
+
+    background-color: ##0b47ea;
+}
+li a:hover {
+    background-color:#d6266f;
+  }
+p{
+  background:url("https://data.whicdn.com/images/243367297/original.jpg");
+  outline: 5px dotted black;
+  padding: 10px;
+  text-align: justify;
+  text-align: center;
+  font-family: "courier";
+}
+@font-face {
+  font-family: preciousfont;
+  src: url("Precious.ttf")
+}
+
+#contactInfo{
+  font-family: "preciousfont";
+  font-style: oblique;
+  font-size: 40px
+}
+#fashion{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+#bracelets{
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
