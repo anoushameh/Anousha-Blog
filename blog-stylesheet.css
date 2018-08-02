@@ -10,6 +10,11 @@ h1{
     font-size: 28px;
 
 }
+button{
+  font-family: "courier";
+  font-size: 20px;
+  background-color: "pink"
+}
 #intro{
   background:url("http://31.media.tumblr.com/49f218ec6dae0ec184b8b98bcc39f2f3/tumblr_njedfjnPkR1sjeyq0o1_500.gif");
   font-family: "courier";
@@ -55,7 +60,7 @@ li a {
     background-color: #ff549b;
 }
 li a {
-    display: block;
+    display: inline;
     color: white;
     text-align: center;
     padding: 6px 10px;

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="blog-stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.1.3/css/ol.css" type="text/css">
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.1.3/build/ol.js"></script>
+    <title>OpenLayers example</title>
+  </head>
+  <body>
+    <br>
+    <div id="title">Anousha Mehta</div>
+    <br>
+    <div id="info" >Comedian, Coder, & Artist! </div>
+    <ul>
+      <li><a href= "blog.html">Home</a></li>
+      <li><a href= #title>About Me</a></li>
+      <li><a href= #helping >Helping Hands</a></li>
+      <li><a href= #compsci>Business/CompSci</a></li>
+      <li><a href= #art>Art&Design</a></li>
+      <li><a href= #comedy >Funny Stuff;)</a></li>
+      <li><a href= "map.html" >Where I am From?</a></li>
+    </ul>
+
+    <div id="cool">Not your average blog… cooler than #dogwiththeblog</div>
+
+    <h2>PLACES I HAVE BEEN/LOVE!!</h2>
+    <div id="map" class="map"></div>
+    <button onclick="map.getView().setCenter(ol.proj.fromLonLat([295.2495, 32.3078]))">My Favorite Place to Visit</button>
+    <button onclick="map.getView().setCenter(ol.proj.fromLonLat([285.7313, 40.3381]))">My Home Town</button>
+    <button onclick="map.getView().setCenter(ol.proj.fromLonLat([359.8722, 51.5074]))">Coolest Place I've Been</button>
+    <button onclick="map.getView().setCenter(ol.proj.fromLonLat([2.3522, 48.8566]))">Pretty Place I've Been!</button>
+    <button onclick="map.getView().setCenter(ol.proj.fromLonLat([72.8777, 19.0760]))">Where I'm from?</button>
+    <script type="text/javascript">
+      var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([72.8777, 19.0760]),
+          zoom: 12
+        })
+      });
+
+    </script>
+  </body>
+</html>
